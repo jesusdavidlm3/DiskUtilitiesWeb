@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body{
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  background-color: whitesmoke;
+}
+
+.NavBar{
+  background-color: greenyellow;
+  width: 100vw;
+  height: 20vh;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 0;
+}
+
+.errorPage{
+  background-color: tomato;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.errorPage a{
+  color: white;
+  text-decoration: none;
+}
+
+.NavBar .header{
+  display: flex;
+  align-items: end;
+  padding: 0 0 0 20px;
+  gap: 5px;
+  height: 60%;
+}
+
+.NavBar .header h1{
+  font-size: 5vw;
+  margin: 5px;
+}
+
+.NavBar .buttons{
+  height: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: green;
+}
+
+.NavBar .buttons .divider{
+  width: 2px;
+  height: 30px;
+  background-color: white;
+  margin: 0 7vw;
+}
+
+.NavBar .buttons h4{
+  color: white;
+  transition: all ease .3s;
+}
+
+.NavBar .buttons h4:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.7));
+}
+
+.basePage{
+  margin-top: 20vh;
+}
+
+.basePage .contentPage{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  margin: 25px;
+}
+
+.basePage .contentPage .exampleImage{
+  width: 50vw;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.3);
+}
+
+.basePage .contentPage h1{
+  font-size: 3vw;
+  margin: 10px 0 10px 0;
+}
+
+.basePage .contentPage p{
+  width: 70vw;
+}
+
+.basePage .contentPage .links{
+  align-self: center;
+  display: flex;
+  gap: 15px;
+}
+
+.basePage .contentPage .links .downloads{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  color: black;
+  text-decoration: none;
+  background-color: green;
+  padding: 20px;
+  border-radius: 30px;
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.basePage .contentPage .links .downloads h4{
+  margin: 0;
+  color: white;
+  text-decoration: none;
+}
+
+.basePage .contentPage .links .source{
+  display: flex;
+  align-items: center;
+  align-self: center;
+  background-color: #24292f;
+  color: white;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 30px;
+  margin: 15px;
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.basePage .contentPage .links .source .ghLogo{
+  width: 30px;
+  height: 30px;
+}
