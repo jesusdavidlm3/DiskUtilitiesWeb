@@ -27,6 +27,11 @@ export default function BackupMaker(){
                 <div class="links">
                     <BackupMakerDownload/>
                     <BackupMakerSourceCode/>
+                    <script
+                    type='text/javascript'
+                    src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'
+                />
+                <script type='text/javascript'>kofiwidget2.init('Make a donation', '#72a4f2', 'Y8Y31J4ST5');kofiwidget2.draw();</script>
                 </div>
             </div>
         </div>

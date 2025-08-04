@@ -101,6 +101,7 @@ body{
   align-self: center;
   display: flex;
   gap: 15px;
+  align-items: center;
 }
 
 .basePage .contentPage .links .downloads{

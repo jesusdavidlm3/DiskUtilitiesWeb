@@ -18,6 +18,11 @@ export default function Home() {
           you need in the navigation bar and then the download button, i would be happy if the peope
           use the tools i made. 
         </p>
+        <script
+          type='text/javascript'
+          src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'
+        />
+        <script type='text/javascript'>kofiwidget2.init('Make a donation', '#72a4f2', 'Y8Y31J4ST5');kofiwidget2.draw();</script> 
       </div>
     </div>
   );
