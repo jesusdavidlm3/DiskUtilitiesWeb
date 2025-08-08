@@ -4,34 +4,36 @@
 
 import * as $_404 from "./routes/_404.tsx";
 import * as $_app from "./routes/_app.tsx";
+import * as $antiDuplicate from "./routes/antiDuplicate.tsx";
 import * as $api_joke from "./routes/api/joke.ts";
 import * as $backupMaker from "./routes/backupMaker.tsx";
-import * as $diskClonner from "./routes/diskClonner.tsx";
 import * as $fileCleanner from "./routes/fileCleanner.tsx";
 import * as $greet_name_ from "./routes/greet/[name].tsx";
 import * as $index from "./routes/index.tsx";
 import * as $BackupMakerDownload from "./islands/BackupMakerDownload.tsx";
-import * as $BackupMakerSourceCode from "./islands/BackupMakerSourceCode.tsx";
 import * as $Counter from "./islands/Counter.tsx";
+import * as $FileCleanerDownload from "./islands/FileCleanerDownload.tsx";
 import * as $NavBar from "./islands/NavBar.tsx";
+import * as $SourceCode from "./islands/SourceCode.tsx";
 import type { Manifest } from "$fresh/server.ts";
 
 const manifest = {
   routes: {
     "./routes/_404.tsx": $_404,
     "./routes/_app.tsx": $_app,
+    "./routes/antiDuplicate.tsx": $antiDuplicate,
     "./routes/api/joke.ts": $api_joke,
     "./routes/backupMaker.tsx": $backupMaker,
-    "./routes/diskClonner.tsx": $diskClonner,
     "./routes/fileCleanner.tsx": $fileCleanner,
     "./routes/greet/[name].tsx": $greet_name_,
     "./routes/index.tsx": $index,
   },
   islands: {
     "./islands/BackupMakerDownload.tsx": $BackupMakerDownload,
-    "./islands/BackupMakerSourceCode.tsx": $BackupMakerSourceCode,
     "./islands/Counter.tsx": $Counter,
+    "./islands/FileCleanerDownload.tsx": $FileCleanerDownload,
     "./islands/NavBar.tsx": $NavBar,
+    "./islands/SourceCode.tsx": $SourceCode,
   },
   baseUrl: import.meta.url,
 } satisfies Manifest;

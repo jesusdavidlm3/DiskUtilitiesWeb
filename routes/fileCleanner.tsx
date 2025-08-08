@@ -1,18 +1,40 @@
 import NavBar from "../islands/NavBar.tsx"
+import SourceCode from "../islands/SourceCode.tsx"
+import FileCleanerDownload from "../islands/FileCleanerDownload.tsx"
 
 export default function FileCleanner(){
     return(
-        <div>
             <div class="basePage">
                 <NavBar/>
                 <div class="contentPage">
                     <h1>File Cleanner</h1>
+                    <img
+                        class="exampleImage"
+                        src="./fileCleaner.png"
+                        draggable={false}    
+                    />
                     <p>
-                        Esta herramienta aun se encuentra en desarrollo y no existe ninguna version disponible
-                        Vuelve mas tarde cuando la herramienta ya se encuentre lista.
+                        File cleaner is a tool for clean your drive efficiently in less time saving you from the effort of
+                        looking for everything with settings for file types. You can can sit down and watch how everything works.
                     </p>
+                    <p>
+                        This is an open source project that can't be distribuited or selled outside this web, it's use
+                        is for free. It means no licenses and no subscriptions are needed to use it in any personal or 
+                        bussiness environment and .
+                    </p>
+                    <div class="links">
+                        <FileCleanerDownload/>
+                        <SourceCode/>
+                        <div>
+                            
+                        </div>
+                        <script
+                            type='text/javascript'
+                            src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'
+                        />
+                        <script type='text/javascript'>kofiwidget2.init('Make a donation', '#72a4f2', 'Y8Y31J4ST5');kofiwidget2.draw();</script>
+                    </div>
                 </div>
-            </div>
         </div>
     )
 }

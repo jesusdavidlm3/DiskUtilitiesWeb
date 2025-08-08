@@ -10,9 +10,9 @@ export default function NavBar(){
                 <div class="divider"/>
                 <h4 onClick={() => globalThis.location.href="/backupMaker"}>Backup Maker</h4>
                 <div class="divider"/>
-                <h4 onClick={() => globalThis.location.href="/fileCleanner"}>File cleaner</h4>
+                <h4 onClick={() => globalThis.location.href="/fileCleanner"}>File Cleaner</h4>
                 <div class="divider"/>
-                <h4 onClick={() => globalThis.location.href="/diskClonner"}>Disk Clonner</h4>
+                <h4 onClick={() => globalThis.location.href="/antiDuplicate"}>Anti Duplicate</h4>
             </div>
         </div>
     )

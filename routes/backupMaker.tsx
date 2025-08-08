@@ -1,5 +1,5 @@
 import BackupMakerDownload from "../islands/BackupMakerDownload.tsx";
-import BackupMakerSourceCode from "../islands/BackupMakerSourceCode.tsx";
+import SourceCode from "../islands/SourceCode.tsx";
 import NavBar from "../islands/NavBar.tsx"
 
 export default function BackupMaker(){
@@ -26,12 +26,12 @@ export default function BackupMaker(){
                 </p>
                 <div class="links">
                     <BackupMakerDownload/>
-                    <BackupMakerSourceCode/>
+                    <SourceCode/>
                     <script
-                    type='text/javascript'
-                    src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'
-                />
-                <script type='text/javascript'>kofiwidget2.init('Make a donation', '#72a4f2', 'Y8Y31J4ST5');kofiwidget2.draw();</script>
+                        type='text/javascript'
+                        src='https://storage.ko-fi.com/cdn/widget/Widget_2.js'
+                    />
+                    <script type='text/javascript'>kofiwidget2.init('Make a donation', '#72a4f2', 'Y8Y31J4ST5');kofiwidget2.draw();</script>
                 </div>
             </div>
         </div>

@@ -86,6 +86,11 @@ body{
   width: 50vw;
   border-radius: 8px;
   box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.3);
+  transition: all ease .3s;
+}
+
+.basePage .contentPage .exampleImage:hover{
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.5);
 }
 
 .basePage .contentPage h1{
@@ -112,10 +117,17 @@ body{
   color: black;
   text-decoration: none;
   background-color: green;
-  padding: 20px;
-  border-radius: 30px;
+  padding: 10px;
+  border-radius: 8px;
+  height: 22px;
   box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.basePage .contentPage .links .downloads:hover{
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
 }
 
 .basePage .contentPage .links .downloads h4{
@@ -132,13 +144,20 @@ body{
   color: white;
   gap: 10px;
   padding: 10px;
-  border-radius: 30px;
+  border-radius: 8px;
+  height: 22px;
   margin: 15px;
   box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.3);
   cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.basePage .contentPage .links .source:hover{
+  box-shadow: 0 0 15px 8px rgba(0, 0, 0, 0.5);
+  transform: scale(0.9);
 }
 
 .basePage .contentPage .links .source .ghLogo{
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
 }
